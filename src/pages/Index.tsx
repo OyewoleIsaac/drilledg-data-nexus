@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Play, Database, BarChart3, Shield } from "lucide-react";
@@ -36,7 +35,7 @@ const Index = () => {
             Energy Assets
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Drilledg Resources delivers advanced data management solutions to optimize 
+            Drilledge Resources delivers advanced data management solutions to optimize 
             exploration, production, and asset integrity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
@@ -91,7 +90,7 @@ const Index = () => {
             Your Partner in <span className="text-orange-500">Data Intelligence</span>
           </h2>
           <p className="text-xl text-gray-300 leading-relaxed">
-            Based in Port Harcourt, Drilledg Resources integrates technology, data science, 
+            Based in Port Harcourt, Drilledge Resources integrates technology, data science, 
             and operational expertise to drive measurable impact for oil and gas operators.
           </p>
           <div className="mt-12">

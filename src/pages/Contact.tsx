@@ -182,7 +182,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
-                    <p className="text-gray-300">+234 (0) 801 234 5678</p>
+                    <p className="text-gray-300">(+234) 706 906 3791</p>
                   </div>
                 </div>
                 
@@ -192,7 +192,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">Email</h3>
-                    <p className="text-gray-300">info@drilledgresources.com</p>
+                    <p className="text-gray-300">info@drilledgeresources.com</p>
                   </div>
                 </div>
                 
@@ -211,14 +211,20 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
+              {/* Nigeria Map */}
               <div className="mt-12">
                 <h3 className="text-xl font-bold text-white mb-4">Location Map</h3>
-                <div className="w-full h-64 bg-slate-700 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-12 w-12 text-orange-500 mx-auto mb-2" />
-                    <p className="text-gray-400">Port Harcourt, Rivers State</p>
-                  </div>
+                <div className="w-full h-64 bg-slate-700 rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4074516.4292793064!2d5.9609239073242185!4d9.072264315301247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2s!4v1642089731777!5m2!1sen!2s"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Nigeria Map"
+                  ></iframe>
                 </div>
               </div>
             </div>
