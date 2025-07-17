@@ -192,7 +192,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">Email</h3>
-                    <p className="text-gray-300">info@drilledgeresources.com</p>
+                    <p className="text-gray-300">support@drilledge.co</p>
                   </div>
                 </div>
                 
@@ -216,7 +216,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-white mb-4">Location Map</h3>
                 <div className="w-full h-64 bg-slate-700 rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4074516.4292793064!2d5.9609239073242185!4d9.072264315301247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2s!4v1642089731777!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15957.40277102087!2d7.024350635766255!3d4.821324182368126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cd94c0a0875d%3A0x31976be6833058cd!2sTrans%20Amadi%2C%20Port%20Harcourt!5e0!3m2!1sen!2sng!4v1720974292083!5m2!1sen!2sng"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
